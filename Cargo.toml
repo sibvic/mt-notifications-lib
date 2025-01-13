@@ -1,0 +1,12 @@
+[package]
+name = "AdvancedNotificationsLib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+json = "0.12.4"
+reqwest = { version = "0.12.12", features = ["blocking"] }
+widestring = "1.1.0"
