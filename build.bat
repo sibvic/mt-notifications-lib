@@ -1,1 +1,1 @@
-cargo b --target i686-pc-windows-msvc
+cargo b -r --target i686-pc-windows-msvc
